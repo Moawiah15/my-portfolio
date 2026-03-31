@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f4f7f6; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+h1, h2 {
+    color: rgb(44, 62, 80); 
+    text-align: center;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.about {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/pexels-martin-skerik-855863199-31018139.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hobbies {
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(images/pexels-masi-461420600-33553566.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+p {
+    font-weight: lighter;  
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
